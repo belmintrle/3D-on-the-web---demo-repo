@@ -10,3 +10,5 @@ yarn-error.log*
 .env*.local
 .vercel
 next-env.d.ts
+SETUP.md
+shipping-3d-script.md
