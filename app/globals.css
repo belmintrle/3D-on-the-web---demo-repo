@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+html,
+body {
+  background: #0a0a0a;
+  color: #f5f5f5;
+}
+
+/* Beat D. A full-width canvas with orbit controls is a scroll trap on touch:
+   the user tries to scroll past your hero and rotates the product instead.
+   `pan-y` hands vertical drags back to the page. It is a trade, not a fix —
+   vertical rotation by touch is gone. Make it deliberately. */
+canvas {
+  touch-action: pan-y;
+}
